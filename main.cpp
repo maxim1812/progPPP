@@ -1,17 +1,23 @@
 #include <iostream>
 using namespace std;
 
-// my version 1
+// my version 2
+
+int getSumma(int x, int y)
+{
+	return (x+y);
+}
 
 int main(int argc, char** argv) 
 {
 	int a,b,c;
 	
-	cin >> a;
-	cin >> b;
+	cin >> a >> b;
 	
-	c = a + b;
-	cout << c << "\n";
+	c = getSumma(a,b);
+	cout << c;
+	
+	
 	
 	return 0;
 }
