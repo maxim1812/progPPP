@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 	c = getSumma(a,b);
 	cout << c;
 	
-	
+	cout << "\n\nwin!";
 	
 	return 0;
 }
